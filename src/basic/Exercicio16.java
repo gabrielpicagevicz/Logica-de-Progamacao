@@ -12,6 +12,6 @@ public class Exercicio16 {
         System.out.println("Digite o número: ");
         double numero = sc.nextDouble();
 
-        
+
     }
 }

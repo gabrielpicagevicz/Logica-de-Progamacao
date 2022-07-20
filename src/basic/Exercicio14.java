@@ -16,7 +16,7 @@ public class Exercicio14 {
 //        b. a velocidade permitida da via
 //        c. a aceleração típica dos carros
 
-        
+
 
 
     }

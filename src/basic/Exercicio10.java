@@ -11,7 +11,7 @@ public class Exercicio10 {
         System.out.println("Informe um inteiro menor que 32");
         int numero = sc.nextInt();
 
-        
+
 
 
     }

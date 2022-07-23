@@ -12,10 +12,10 @@ public class Exercicio24 {
         double primeiro = sc.nextDouble();
 
 
-        System.out.println("Digite o primeiro número");
+        System.out.println("Digite o segundo número");
         double segundo = sc.nextDouble();
 
-        System.out.println("Digite o primeiro número");
+        System.out.println("Digite o terceiro número");
         double terceiro = sc.nextDouble();
 
         if(primeiro > segundo && primeiro > terceiro){

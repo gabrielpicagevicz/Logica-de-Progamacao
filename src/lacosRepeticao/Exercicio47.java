@@ -12,10 +12,11 @@ public class Exercicio47 {
         System.out.println("Digite um número: ");
         int numero = sc.nextInt();
 
-        if((numero % 1 == 0) && (numero % numero == 0)){
-            System.out.println(numero+" é número é primo!");
-        } else {
-            System.out.println("Não é primo");
+        int contador = 0;
+
+        for(int i = 1; i <= numero; i++){
+
+            contador++;
         }
 
     }

@@ -8,6 +8,8 @@ public class Exercicio22 {
 
         Scanner sc = new Scanner(System.in);
 
+
+
         System.out.println("Digite um número: ");
         double numero = sc.nextDouble();
         double aux;

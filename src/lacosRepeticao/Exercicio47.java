@@ -18,7 +18,7 @@ public class Exercicio47 {
 
 
 
-            
+
             contador++;
         }
 

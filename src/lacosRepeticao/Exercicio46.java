@@ -17,5 +17,5 @@ public class Exercicio46 {
         int segundo = sc.nextInt();
         int count = 0;
 
-     
+    }
 }

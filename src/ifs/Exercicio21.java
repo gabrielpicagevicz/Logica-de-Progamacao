@@ -11,7 +11,7 @@ public class Exercicio21 {
         System.out.println("Digite um número: ");
         int numero = sc.nextInt();
 
-        if(numero > 0){
+        if (numero > 0) {
             System.out.println(numero + " é positivo");
         } else {
             System.out.println(numero + " é negativo");

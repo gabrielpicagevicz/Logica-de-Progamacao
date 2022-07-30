@@ -15,7 +15,7 @@ public class Exercicio03 {
         double perimetro = (2 * 3.14 * raio);
 
 
-        System.out.println("A aréa da circunferência é: "+area+" o perímetro é: "+perimetro);
+        System.out.println("A aréa da circunferência é: " + area + " o perímetro é: " + perimetro);
 
     }
 }

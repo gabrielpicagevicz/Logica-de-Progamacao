@@ -7,8 +7,6 @@ public class Exercicio01 {
 //        1. Dado o tamanho da base e da altura de um retângulo, calcular a sua área e o seu
 //        perímetro.
 
-
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite a base");
@@ -21,6 +19,6 @@ public class Exercicio01 {
         double perimetro = 2 * (base * altura);
 
 
-        System.out.println("A área do do retângulo é: "+area+" e o perímetro é "+perimetro);
+        System.out.println("A área do do retângulo é: " + area + " e o perímetro é " + perimetro);
     }
 }

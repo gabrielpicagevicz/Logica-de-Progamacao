@@ -13,7 +13,7 @@ public class Exercicio35 {
         System.out.println("Digite 1 numero de 1 a 7");
         int numero = sc.nextInt();
 
-        switch (numero){
+        switch (numero) {
             case 1:
                 System.out.println("Domingo");
                 break;

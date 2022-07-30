@@ -16,7 +16,7 @@ public class Exercicio04 {
 
         double perimetro = (primeiro + segundo + terceiro);
 
-        System.out.println("O perímetro do triângulo é: "+perimetro);
+        System.out.println("O perímetro do triângulo é: " + perimetro);
 
     }
 }

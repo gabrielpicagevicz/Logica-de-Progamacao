@@ -12,9 +12,9 @@ public class Exercicio08 {
         System.out.println("Digite o valor da temperatura em Fahrenheit?");
         double fahrenheit = sc.nextDouble();
 
-        double celsius = (fahrenheit - 32) * 5/9;
+        double celsius = (fahrenheit - 32) * 5 / 9;
 
-        System.out.println("A temperatura em Celsius é: "+celsius);
+        System.out.println("A temperatura em Celsius é: " + celsius);
 
     }
 }

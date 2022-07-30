@@ -19,10 +19,10 @@ public class Exercicio06 {
         double restoDivisao = primeiro % segundo;
         double restoDivisaoDois = segundo % primeiro;
 
-        System.out.println("O quociente do primeiro pelo segundo é: "+quociente+"\n"+"" +
-                "O quociente do segundo pelo primeiro é: "+quocienteDois+"\n" +
-                "O resto da divisão do primeiro pelo segundo é: "+restoDivisao+"\n" +
-                "O resto da divisão do segundo pelo primeiro é: "+restoDivisaoDois);
+        System.out.println("O quociente do primeiro pelo segundo é: " + quociente + "\n" + "" +
+                "O quociente do segundo pelo primeiro é: " + quocienteDois + "\n" +
+                "O resto da divisão do primeiro pelo segundo é: " + restoDivisao + "\n" +
+                "O resto da divisão do segundo pelo primeiro é: " + restoDivisaoDois);
 
     }
 }

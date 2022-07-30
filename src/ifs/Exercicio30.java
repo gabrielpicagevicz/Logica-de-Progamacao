@@ -23,29 +23,28 @@ public class Exercicio30 {
         double aux;
         double calculo = 0;
 
-        if(!(letra.equals("A") || letra.equals("G"))){
+        if (!(letra.equals("A") || letra.equals("G"))) {
             System.out.println("Digite uma letra valida!");
         } else {
             System.out.println("Digite a quantidade de litros: ");
             litros = sc.nextDouble();
 
-            if(letra.equals("A") && litros <= 25){
+            if (letra.equals("A") && litros <= 25) {
                 aux = litros * 0.02;
                 calculo = ((litros * 2.70) - aux);
-            } else if(letra.equals("A") && litros > 25) {
+            } else if (letra.equals("A") && litros > 25) {
                 aux = litros * 0.04;
                 calculo = ((litros * 2.70) - aux);
-            } else if(letra.equals("G") && litros <= 25){
+            } else if (letra.equals("G") && litros <= 25) {
                 aux = litros * 0.03;
                 calculo = ((litros * 1.90) - aux);
-            }
-            else if(letra.equals("G") && litros > 25){
+            } else if (letra.equals("G") && litros > 25) {
                 aux = litros * 0.05;
                 calculo = ((litros * 1.90) - aux);
             }
 
 
-            System.out.println("O valor total foi de "+calculo);
+            System.out.println("O valor total foi de " + calculo);
         }
 
 

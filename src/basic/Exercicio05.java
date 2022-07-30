@@ -12,7 +12,7 @@ public class Exercicio05 {
 
         numero++;
 
-        System.out.println("O sucessor é: "+numero);
+        System.out.println("O sucessor é: " + numero);
 
     }
 }

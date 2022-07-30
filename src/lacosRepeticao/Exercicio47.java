@@ -16,6 +16,9 @@ public class Exercicio47 {
 
         for(int i = 1; i <= numero; i++){
 
+
+
+            
             contador++;
         }
 

@@ -14,12 +14,17 @@ public class Exercicio47 {
 
         int contador = 0;
 
-        for(int i = 1; i <= numero; i++){
+        for (int i = 2; i <= numero / 2; i++) {
+            if (numero % i == 0) {
+                contador++;
+                break;
+            }
+        }
 
-
-
-
-            contador++;
+        if(contador == 0){
+            System.out.println("Número é primo");
+        } else {
+            System.out.println("não é primo");
         }
 
     }

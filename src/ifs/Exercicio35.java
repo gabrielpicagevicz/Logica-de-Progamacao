@@ -8,6 +8,9 @@ public class Exercicio35 {
 //        correspondente, sendo domingo o dia de número 1. Se o número não corresponder a um
 //        dia da semana, mostre uma mensagem de erro.
 
+
+
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite 1 numero de 1 a 7");

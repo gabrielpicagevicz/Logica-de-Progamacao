@@ -21,6 +21,8 @@ public class Exercicio47 {
             }
         }
 
+
+        
         if(contador == 0){
             System.out.println("Número é primo");
         } else {

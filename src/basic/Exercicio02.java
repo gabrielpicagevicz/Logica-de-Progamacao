@@ -14,7 +14,7 @@ public class Exercicio02 {
         double area = (lado * lado);
         double perimetro = (lado + lado + lado + lado);
 
-        System.out.println("A área do quadrado é: "+area+ "O perímetro do mesmo é: "+perimetro);
+        System.out.println("A área do quadrado é: " + area + "O perímetro do mesmo é: " + perimetro);
 
 
     }

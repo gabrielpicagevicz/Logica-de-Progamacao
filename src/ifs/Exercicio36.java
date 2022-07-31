@@ -29,13 +29,13 @@ public class Exercicio36 {
         System.out.println("Digite a quinta nota: ");
         double quintaNota = sc.nextDouble();
 
-       // C – passou em I e II, III ou IV, mas não em V.
+        // C – passou em I e II, III ou IV, mas não em V.
 
-        if(primeiraNota >= 7 && segundaNota >= 7 && terceiraNota >= 7 && quartaNota >= 7 && quintaNota >= 7){
+        if (primeiraNota >= 7 && segundaNota >= 7 && terceiraNota >= 7 && quartaNota >= 7 && quintaNota >= 7) {
             System.out.println("Classificação: A – passou em todos os exames");
-        } else if( primeiraNota >= 7 && segundaNota >= 7 && quartaNota >= 7 && terceiraNota < 7 && quintaNota < 7){
+        } else if (primeiraNota >= 7 && segundaNota >= 7 && quartaNota >= 7 && terceiraNota < 7 && quintaNota < 7) {
             System.out.println("Classificação:  B – passou em I, II e IV, mas não em III ou V");
-        } else if(primeiraNota >= 7 && segundaNota >= 7 && terceiraNota >= 7 && quartaNota >= 7 && quintaNota < 7){
+        } else if (primeiraNota >= 7 && segundaNota >= 7 && terceiraNota >= 7 && quartaNota >= 7 && quintaNota < 7) {
             System.out.println("Classificação:  C – passou em I e II, III ou IV, mas não em V");
         }
 

@@ -28,7 +28,7 @@ public class Exercicio34 {
         double prestacaoMaxima = (rendaMensal * 3.33);
         double prestacao = (rendaMensal - prestacaoMaxima);
 
-        if (valorTotalEmprestimo > valorTotal || prestacao > rendaMensal){
+        if (valorTotalEmprestimo > valorTotal || prestacao > rendaMensal) {
             System.out.println("Emprestimo não pode ser feito!");
         } else {
             System.out.println("Empréstimo pode ser concedido");

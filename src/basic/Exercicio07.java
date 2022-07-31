@@ -16,8 +16,8 @@ public class Exercicio07 {
         double meses = (dias / 30);
         double horas = (dias * 24);
 
-        System.out.println("O valor da idade em anos é: "+anos+"\n" +
-                "O valor da idade em meses é: "+meses+"\n" +
-                "O valor da idade em horas é: "+horas);
+        System.out.println("O valor da idade em anos é: " + anos + "\n" +
+                "O valor da idade em meses é: " + meses + "\n" +
+                "O valor da idade em horas é: " + horas);
     }
 }

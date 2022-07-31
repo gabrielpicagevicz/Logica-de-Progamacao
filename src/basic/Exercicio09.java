@@ -16,7 +16,7 @@ public class Exercicio09 {
 
         double volume = 3.14 * raio * altura;
 
-        System.out.println("O volume é: "+volume);
+        System.out.println("O volume é: " + volume);
 
     }
 }

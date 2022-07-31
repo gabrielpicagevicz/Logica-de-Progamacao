@@ -29,6 +29,8 @@ public class Exercicio37 {
         double calc;
         double descontoDez = 0;
 
+
+
         if (praga > 4 || praga < 1) {
             System.out.println("Opção inválida: ");
         } else {

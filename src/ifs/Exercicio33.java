@@ -16,19 +16,19 @@ public class Exercicio33 {
         System.out.println("Digite y");
         double y = sc.nextDouble();
 
-        if( x == 0.0 && y == 0.0){
+        if (x == 0.0 && y == 0.0) {
             System.out.println("Origem");
-        } else if ( x > 0 && y >0){
+        } else if (x > 0 && y > 0) {
             System.out.println("Q1\n");
-        } else if (x < 0 && y > 0){
+        } else if (x < 0 && y > 0) {
             System.out.println("Q2\n");
-        } else if (x < 0 && y < 0){
+        } else if (x < 0 && y < 0) {
             System.out.println("Q3\n");
-        } else if (x > 0 && y < 0){
+        } else if (x > 0 && y < 0) {
             System.out.println("Q4\n");
-        } else if (x == 0){
+        } else if (x == 0) {
             System.out.println("Eixo Y\n");
-        } else if( y == 0){
+        } else if (y == 0) {
             System.out.println("Eixo X\n");
         }
 
